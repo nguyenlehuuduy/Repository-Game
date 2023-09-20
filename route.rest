@@ -1,0 +1,26 @@
+GET http://localhost:3000/typequestion/650af315a44d955a5c7ce9a3
+
+###
+POST http://localhost:3000/typequestion/
+Content-Type: application/json
+
+{
+    "nameType" : "Đà Nẵng 201",
+    "descriptionType" : "Xin chào 1"
+}
+
+###
+PATCH  http://localhost:3000/typequestion/650af315a44d955a5c7ce9a3
+
+Content-Type: application/json
+{
+    "nameType": "Đà Ncẵng 201",
+    "descriptionType" : "Xin chào2"
+}
+
+
+###
+DELETE  http://localhost:3000/typequestion/650ad1fd1b8cefa4b7115d7b
+
+
+
